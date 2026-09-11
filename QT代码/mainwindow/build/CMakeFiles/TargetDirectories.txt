@@ -1,0 +1,4 @@
+/home/czq/桌面/widget（复件）/build/CMakeFiles/test.dir
+/home/czq/桌面/widget（复件）/build/CMakeFiles/edit_cache.dir
+/home/czq/桌面/widget（复件）/build/CMakeFiles/rebuild_cache.dir
+/home/czq/桌面/widget（复件）/build/CMakeFiles/test_autogen.dir

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/czq/桌面/TCP客户端/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/czq/桌面/TCP客户端/build/test_autogen/include -I/home/czq/桌面/TCP客户端/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -std=gnu++11 -fPIC -o CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o -c /home/czq/桌面/TCP客户端/build/test_autogen/mocs_compilation.cpp",
+  "file": "/home/czq/桌面/TCP客户端/build/test_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/test.dir/test_autogen/mocs_compilation.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/TCP客户端/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/czq/桌面/TCP客户端/build/test_autogen/include -I/home/czq/桌面/TCP客户端/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -std=gnu++11 -fPIC -o CMakeFiles/test.dir/src/main.cpp.o -c /home/czq/桌面/TCP客户端/src/main.cpp",
+  "file": "/home/czq/桌面/TCP客户端/src/main.cpp",
+  "output": "CMakeFiles/test.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/TCP客户端/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/czq/桌面/TCP客户端/build/test_autogen/include -I/home/czq/桌面/TCP客户端/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -std=gnu++11 -fPIC -o CMakeFiles/test.dir/src/widget.cpp.o -c /home/czq/桌面/TCP客户端/src/widget.cpp",
+  "file": "/home/czq/桌面/TCP客户端/src/widget.cpp",
+  "output": "CMakeFiles/test.dir/src/widget.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/TCP客户端/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/czq/桌面/TCP客户端/build/test_autogen/include -I/home/czq/桌面/TCP客户端/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -std=gnu++11 -fPIC -o CMakeFiles/test.dir/src/chat.cpp.o -c /home/czq/桌面/TCP客户端/src/chat.cpp",
+  "file": "/home/czq/桌面/TCP客户端/src/chat.cpp",
+  "output": "CMakeFiles/test.dir/src/chat.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/TCP客户端/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_WIDGETS_LIB -I/home/czq/桌面/TCP客户端/build/test_autogen/include -I/home/czq/桌面/TCP客户端/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtNetwork -g -std=gnu++11 -fPIC -o CMakeFiles/test.dir/test_autogen/3YJK5W5UP7/qrc_resources.cpp.o -c /home/czq/桌面/TCP客户端/build/test_autogen/3YJK5W5UP7/qrc_resources.cpp",
+  "file": "/home/czq/桌面/TCP客户端/build/test_autogen/3YJK5W5UP7/qrc_resources.cpp",
+  "output": "CMakeFiles/test.dir/test_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
+}
+]
