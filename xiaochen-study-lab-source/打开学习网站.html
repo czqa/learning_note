@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>正在打开小陈的编程复习室…</title>
+</head>
+<body>
+  <p>正在打开学习网站。如果没有自动跳转，<a href="dist/index.html">请点击这里</a>。</p>
+  <script>
+    (async () => {
+      const fallback = () => window.location.replace("dist/index.html");
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 650);
+      try {
+        await fetch("http://127.0.0.1:8765/api/cuda/status", {
+          signal: controller.signal,
+          mode: "no-cors",
+          cache: "no-store"
+        });
+        clearTimeout(timer);
+        window.location.replace("http://127.0.0.1:8765");
+      } catch {
+        clearTimeout(timer);
+        fallback();
+      }
+    })();
+  </script>
+</body>
+</html>

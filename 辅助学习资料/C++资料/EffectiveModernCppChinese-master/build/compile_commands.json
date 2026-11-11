@@ -1,0 +1,332 @@
+[
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base1.dir/base1.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base1.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base1.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/base1.dir/base1.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base2.dir/base2.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base2.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base2.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/base2.dir/base2.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base3.dir/base3.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base3.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base3.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/base3.dir/base3.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base4.dir/base4.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base4.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base4.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/base4.dir/base4.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base5.dir/base5.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base5.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base5.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/base5.dir/base5.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base6.dir/base6.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base6.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/base6.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/base6.dir/base6.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item1.dir/item1.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item1.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item1.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/item1.dir/item1.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item2.dir/item2.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item2.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item2.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/item2.dir/item2.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item3.dir/item3.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item3.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item3.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/item3.dir/item3.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/1.DeducingTypes",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item4.dir/item4.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item4.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/1.DeducingTypes/item4.cpp",
+  "output": "1.DeducingTypes/CMakeFiles/item4.dir/item4.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/2.Auto",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base7.dir/base7.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/base7.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/base7.cpp",
+  "output": "2.Auto/CMakeFiles/base7.dir/base7.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/2.Auto",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base8.dir/base8.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/base8.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/base8.cpp",
+  "output": "2.Auto/CMakeFiles/base8.dir/base8.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/2.Auto",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base9.dir/base9.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/base9.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/base9.cpp",
+  "output": "2.Auto/CMakeFiles/base9.dir/base9.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/2.Auto",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item5.dir/item5.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/item5.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/item5.cpp",
+  "output": "2.Auto/CMakeFiles/item5.dir/item5.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/2.Auto",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item6.dir/item6.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/item6.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/2.Auto/item6.cpp",
+  "output": "2.Auto/CMakeFiles/item6.dir/item6.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item7.dir/item7.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item7.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item7.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item7.dir/item7.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item8.dir/item8.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item8.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item8.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item8.dir/item8.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item9.dir/item9.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item9.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item9.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item9.dir/item9.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item10.dir/item10.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item10.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item10.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item10.dir/item10.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item11.dir/item11.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item11.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item11.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item11.dir/item11.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item12.dir/item12.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item12.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item12.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item12.dir/item12.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item15.dir/item15.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item15.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item15.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item15.dir/item15.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item17.dir/item17.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item17.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item17.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item17.dir/item17.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item14.dir/item14.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item14.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item14.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item14.dir/item14.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item13.dir/item13.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item13.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/item13.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/item13.dir/item13.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base10.dir/base10.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base10.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base10.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/base10.dir/base10.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base11.dir/base11.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base11.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base11.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/base11.dir/base11.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base11_2.dir/base11_2.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base11_2.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base11_2.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/base11_2.dir/base11_2.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/3.MovingToModernCpp",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base12.dir/base12.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base12.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/3.MovingToModernCpp/base12.cpp",
+  "output": "3.MovingToModernCpp/CMakeFiles/base12.dir/base12.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item18.dir/item18.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item18.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item18.cpp",
+  "output": "4.SmartPointers/CMakeFiles/item18.dir/item18.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item19.dir/item19.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item19.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item19.cpp",
+  "output": "4.SmartPointers/CMakeFiles/item19.dir/item19.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item20.dir/item20.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item20.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item20.cpp",
+  "output": "4.SmartPointers/CMakeFiles/item20.dir/item20.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item21.dir/item21.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item21.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item21.cpp",
+  "output": "4.SmartPointers/CMakeFiles/item21.dir/item21.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item22.dir/item22.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item22.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/item22.cpp",
+  "output": "4.SmartPointers/CMakeFiles/item22.dir/item22.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item22.dir/Widget.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/Widget.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/Widget.cpp",
+  "output": "4.SmartPointers/CMakeFiles/item22.dir/Widget.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base13.dir/base13.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base13.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base13.cpp",
+  "output": "4.SmartPointers/CMakeFiles/base13.dir/base13.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base14.dir/base14.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base14.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base14.cpp",
+  "output": "4.SmartPointers/CMakeFiles/base14.dir/base14.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base15.dir/base15.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base15.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base15.cpp",
+  "output": "4.SmartPointers/CMakeFiles/base15.dir/base15.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/4.SmartPointers",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base16.dir/base16.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base16.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/4.SmartPointers/base16.cpp",
+  "output": "4.SmartPointers/CMakeFiles/base16.dir/base16.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base17.dir/base17.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/base17.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/base17.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/base17.dir/base17.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base18.dir/base18.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/base18.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/base18.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/base18.dir/base18.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base19.dir/base19.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/base19.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/base19.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/base19.dir/base19.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item23.dir/item23.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item23.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item23.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item23.dir/item23.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item24.dir/item24.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item24.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item24.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item24.dir/item24.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item25.dir/item25.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item25.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item25.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item25.dir/item25.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item26.dir/item26.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item26.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item26.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item26.dir/item26.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item27.dir/item27.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item27.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item27.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item27.dir/item27.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item28.dir/item28.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item28.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item28.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item28.dir/item28.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item30.dir/item30.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item30.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/5.RRefMovSemPerfForw/item30.cpp",
+  "output": "5.RRefMovSemPerfForw/CMakeFiles/item30.dir/item30.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/6.LambdaExpressions",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item31.dir/item31.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/item31.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/item31.cpp",
+  "output": "6.LambdaExpressions/CMakeFiles/item31.dir/item31.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/6.LambdaExpressions",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item32.dir/item32.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/item32.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/item32.cpp",
+  "output": "6.LambdaExpressions/CMakeFiles/item32.dir/item32.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/6.LambdaExpressions",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item34.dir/item34.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/item34.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/item34.cpp",
+  "output": "6.LambdaExpressions/CMakeFiles/item34.dir/item34.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/6.LambdaExpressions",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/base21.dir/base21.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/base21.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/6.LambdaExpressions/base21.cpp",
+  "output": "6.LambdaExpressions/CMakeFiles/base21.dir/base21.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/8.Tweaks",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item41.dir/item41.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/8.Tweaks/item41.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/8.Tweaks/item41.cpp",
+  "output": "8.Tweaks/CMakeFiles/item41.dir/item41.cpp.o"
+},
+{
+  "directory": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/build/8.Tweaks",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/item42.dir/item42.cpp.o -c /home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/8.Tweaks/item42.cpp",
+  "file": "/home/czq/桌面/学习总笔记/辅助学习资料/C++资料/EffectiveModernCppChinese-master/8.Tweaks/item42.cpp",
+  "output": "8.Tweaks/CMakeFiles/item42.dir/item42.cpp.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/base17.dir/base17.cpp.o -o base17

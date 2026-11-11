@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/base7.dir/base7.cpp.o -o base7

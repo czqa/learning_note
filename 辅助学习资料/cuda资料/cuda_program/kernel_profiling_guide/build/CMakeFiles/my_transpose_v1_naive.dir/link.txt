@@ -1,0 +1,1 @@
+/usr/bin/g++ @CMakeFiles/my_transpose_v1_naive.dir/objects1.rsp -o my_transpose_v1_naive @CMakeFiles/my_transpose_v1_naive.dir/linkLibs.rsp -L"/usr/local/cuda-12.2/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-12.2/targets/x86_64-linux/lib"

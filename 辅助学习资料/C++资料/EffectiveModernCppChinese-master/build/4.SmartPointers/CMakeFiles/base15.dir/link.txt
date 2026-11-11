@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/base15.dir/base15.cpp.o -o base15

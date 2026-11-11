@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#17231d" />
+  <title>小陈的编程复习室</title>
+  <meta name="description" content="从个人学习笔记生成的章节学习、手撕训练、面试练习和错题回顾网站" />
+  <link rel="stylesheet" href="styles.css?v=40" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <button class="brand" data-route="dashboard" aria-label="回到首页">
+        <span class="brand-mark">C<span>+</span></span>
+        <span><strong>小陈的复习室</strong><small>PROGRAMMING STUDY LAB</small></span>
+      </button>
+      <button class="back-button" id="back-button" type="button" aria-label="返回上一页" hidden>
+        <span aria-hidden="true">←</span><span>返回</span>
+      </button>
+      <nav class="main-nav" aria-label="主导航">
+        <button class="nav-item active" data-route="dashboard">总览</button>
+        <button class="nav-item" data-route="notes">笔记</button>
+        <button class="nav-item" data-route="projects">项目</button>
+        <button class="nav-item" data-route="quiz">面试练习</button>
+        <button class="nav-item" data-route="mistakes">错题</button>
+      </nav>
+    </header>
+
+    <main id="app" tabindex="-1">
+      <section id="dashboard-view" class="view active" aria-labelledby="dashboard-title">
+        <div class="hero-grid">
+          <article class="hero-card">
+            <p class="eyebrow">STUDY OVERVIEW</p>
+            <h1 id="dashboard-title">把大笔记，拆成<br><em>每天能完成的小复习</em></h1>
+            <p class="hero-copy">从 C++ 到 CUDA，再到 Linux 应用开发。按章节阅读，通过面试练习检验掌握程度。</p>
+            <div class="hero-actions">
+              <button class="primary-button" id="continue-study">继续学习 <span>→</span></button>
+              <button class="secondary-button" data-route="quiz">开始 10 题面试练习</button>
+            </div>
+          </article>
+        </div>
+
+        <section class="section-block">
+          <div class="section-heading">
+            <div><p class="eyebrow">KNOWLEDGE MAP</p><h2>知识地图</h2></div>
+            <span class="muted" id="note-summary">正在整理笔记…</span>
+          </div>
+          <div class="track-grid" id="track-grid"></div>
+        </section>
+
+        <section class="section-block coding-practice-block" aria-labelledby="coding-practice-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">CODING PRACTICE</p><h2 id="coding-practice-title">手撕与刷题</h2></div>
+            <span class="muted">4 个训练入口 · C++ 算法与 GPU 算子</span>
+          </div>
+          <div class="practice-link-grid">
+            <a class="practice-link-card" href="https://programmercarl.com/hot100/" target="_blank" rel="noopener noreferrer" data-index="01" aria-label="打开手撕 C++ Hot100 刷题路线">
+              <div class="practice-link-head"><span class="practice-link-icon">C++</span><span class="external-chip">专题路线 ↗</span></div>
+              <h3>手撕 C++</h3>
+              <p>按照 Hot100 专题路线练习数组、链表、二叉树、动态规划等高频算法。</p>
+              <div class="practice-link-tags"><span>Hot100</span><span>数据结构</span><span>算法</span></div>
+            </a>
+
+            <a class="practice-link-card operator-card" href="https://dlog.com.cn/learn/operators/" target="_blank" rel="noopener noreferrer" data-index="02" aria-label="打开手撕算子学习路线">
+              <div class="practice-link-head"><span class="practice-link-icon">OP</span><span class="external-chip">学习路线 ↗</span></div>
+              <h3>手撕算子</h3>
+              <p>从 GPU 编程基础进入 Reduce、Softmax、Normalization、GEMM 与 Attention。</p>
+              <div class="practice-link-tags"><span>CUDA</span><span>Kernel</span><span>算子优化</span></div>
+            </a>
+
+            <a class="practice-link-card" href="https://leetcode.cn/problemset/" target="_blank" rel="noopener noreferrer" data-index="03" aria-label="打开 LeetCode 中文题库">
+              <div class="practice-link-head"><span class="practice-link-icon">LC</span><span class="external-chip">在线题库 ↗</span></div>
+              <h3>LeetCode</h3>
+              <p>进入力扣中文题库，按题型、难度和学习计划持续完成算法练习。</p>
+              <div class="practice-link-tags"><span>算法题</span><span>每日一题</span><span>竞赛</span></div>
+            </a>
+
+            <a class="practice-link-card gpu-card" href="https://leetgpu.com/challenges" target="_blank" rel="noopener noreferrer" data-index="04" aria-label="打开 LeetGPU 挑战题">
+              <div class="practice-link-head"><span class="practice-link-icon">GPU</span><span class="external-chip">GPU 挑战 ↗</span></div>
+              <h3>LeetGPU</h3>
+              <p>通过在线挑战练习 GPU Kernel，实现并优化并行计算与常见算子。</p>
+              <div class="practice-link-tags"><span>GPU</span><span>Kernel</span><span>性能优化</span></div>
+            </a>
+          </div>
+        </section>
+
+        <section class="section-block interview-block">
+          <div class="section-heading">
+            <div><p class="eyebrow">INTERVIEW PREP</p><h2>面试专区</h2></div>
+            <span class="muted">6 个专题 · 图解学习与面试突击</span>
+          </div>
+          <div class="interview-grid">
+            <a class="interview-card compact" data-index="01" href="https://www.xiaolincoding.com/network/" target="_blank" rel="noopener noreferrer" aria-label="打开图解网络原网站">
+              <div class="interview-mark" aria-hidden="true"><span>NET</span><small>01</small></div>
+              <div class="interview-copy">
+                <span class="resource-label">完整专题 · 原站内容</span>
+                <h3>图解网络</h3>
+                <p>从网络基础到 HTTP、TCP、IP 与网络性能，用图解方式系统复习计算机网络。</p>
+                <div class="topic-tags"><span>网络基础</span><span>HTTP</span><span>TCP</span><span>IP</span><span>面试题</span></div>
+              </div>
+              <span class="interview-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="interview-card compact" data-index="02" href="https://www.xiaolincoding.com/os/" target="_blank" rel="noopener noreferrer" aria-label="打开小林 Coding 图解系统原网站">
+              <div class="interview-mark" aria-hidden="true"><span>OS</span><small>02</small></div>
+              <div class="interview-copy">
+                <span class="resource-label">图解专栏</span>
+                <h3>图解系统</h3>
+                <p>硬件结构、内存管理、进程管理、文件系统与 Linux 命令。</p>
+                <div class="topic-tags"><span>内存</span><span>进程</span><span>文件系统</span></div>
+              </div>
+              <span class="interview-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="interview-card compact" data-index="03" href="https://www.xiaolincoding.com/interview/cpp.html#c-%E5%9F%BA%E7%A1%80" target="_blank" rel="noopener noreferrer" aria-label="打开小林 Coding C++ 面试篇原网站">
+              <div class="interview-mark" aria-hidden="true"><span>C++</span><small>03</small></div>
+              <div class="interview-copy">
+                <span class="resource-label">面试题库 · 112 题</span>
+                <h3>C++ 面试篇</h3>
+                <p>基础、编译、面向对象、STL、内存管理与并发编程。</p>
+                <div class="topic-tags"><span>语言基础</span><span>STL</span><span>内存</span></div>
+              </div>
+              <span class="interview-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="interview-card compact" data-index="04" href="https://www.xiaolincoding.com/interview/network.html" target="_blank" rel="noopener noreferrer" aria-label="打开计算机基础面试篇原网站">
+              <div class="interview-mark" aria-hidden="true"><span>CS</span><small>04</small></div>
+              <div class="interview-copy">
+                <span class="resource-label">计算机基础 · 面试专题</span>
+                <h3>计算机基础面试篇</h3>
+                <p>集中复习计算机网络、操作系统、数据结构与算法高频面试题。</p>
+                <div class="topic-tags"><span>计算机网络</span><span>操作系统</span><span>数据结构与算法</span></div>
+              </div>
+              <span class="interview-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="interview-card compact" data-index="05" href="https://www.xiaolincoding.com/interview/linux.html" target="_blank" rel="noopener noreferrer" aria-label="打开工具命令面试篇原网站">
+              <div class="interview-mark" aria-hidden="true"><span>CLI</span><small>05</small></div>
+              <div class="interview-copy">
+                <span class="resource-label">工具命令 · 面试专题</span>
+                <h3>工具命令面试篇</h3>
+                <p>集中复习 Linux 常用命令、Git 工作流与 Docker 容器相关面试题。</p>
+                <div class="topic-tags"><span>Linux</span><span>Git</span><span>Docker</span></div>
+              </div>
+              <span class="interview-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <a class="interview-card compact" data-index="06" href="#cuda-interview" data-open-cuda-interview aria-label="打开本地 CUDA 面试篇">
+              <div class="interview-mark" aria-hidden="true"><span>GPU</span><small>06</small></div>
+              <div class="interview-copy">
+                <span class="resource-label">本地专题 · 22 篇 / 340 题</span>
+                <h3>CUDA 面试篇</h3>
+                <p>系统复习线程模型、内存体系、Stream、性能分析、GEMM、Tensor Core 与新架构优化。</p>
+                <div class="topic-tags"><span>CUDA</span><span>Kernel</span><span>GEMM</span><span>性能优化</span></div>
+              </div>
+              <span class="interview-arrow" aria-hidden="true">→</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section-block project-home-block" aria-labelledby="project-home-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">PROJECT INTERVIEW</p><h2 id="project-home-title">项目专区</h2></div>
+            <span class="muted" id="project-home-summary">正在读取本地项目…</span>
+          </div>
+          <div class="project-home-grid" id="project-home-grid"></div>
+        </section>
+
+      </section>
+
+      <section id="projects-view" class="view projects-view" aria-labelledby="projects-title">
+        <div class="projects-header">
+          <div>
+            <p class="eyebrow">PROJECT INTERVIEW LAB</p>
+            <h1 id="projects-title">项目专区</h1>
+            <p>从本地源码提炼项目结构，并按真实面试节奏进行基础、深挖和压力追问。</p>
+          </div>
+          <div class="project-header-actions">
+            <button class="project-ai-config-button" id="project-ai-config" type="button">AI 面试官配置</button>
+            <div class="project-model-switch">
+              <label for="project-ai-model">AI 模型</label>
+              <select id="project-ai-model" aria-label="切换项目面试模型"><option value="">正在读取…</option></select>
+              <label for="project-ai-effort">思考强度</label>
+              <select id="project-ai-effort" aria-label="切换 AI 思考强度"><option value="medium">中 · 均衡</option></select>
+              <small id="project-ai-connection">正在连接本机 AI 服务…</small>
+            </div>
+            <span class="project-local-badge" id="project-ai-badge">● 本地题库可用</span>
+          </div>
+        </div>
+        <div id="projects-empty" class="project-empty hidden">
+          <div class="project-empty-mark">P<span>+</span></div>
+          <p class="eyebrow">READY FOR YOUR PROJECT</p>
+          <h2>项目专区已经准备好了</h2>
+          <p>在项目根目录的 <code>projects.json</code> 中加入项目路径，重新打开本页后就会自动生成项目概览和专属拷打题。</p>
+          <div class="project-empty-flow"><span>配置本地目录</span><i>→</i><span>自动扫描结构</span><i>→</i><span>开始项目拷打</span></div>
+        </div>
+        <div id="projects-workspace" class="projects-workspace hidden">
+          <aside class="project-list-panel">
+            <div class="project-list-head"><span>我的项目</span><small id="project-count"></small></div>
+            <div id="project-list" class="project-list"></div>
+          </aside>
+          <article id="project-detail" class="project-detail"></article>
+        </div>
+      </section>
+
+      <section id="notes-view" class="view notes-layout" aria-label="学习笔记">
+        <aside class="notes-sidebar">
+          <div class="sidebar-title"><p class="eyebrow">NOTEBOOK</p><h2>学习笔记</h2></div>
+          <div id="notes-tree" class="notes-tree"></div>
+        </aside>
+        <div id="notes-sidebar-resizer" class="notes-sidebar-resizer" role="separator" aria-label="拖动调整章节栏宽度" aria-orientation="vertical" tabindex="0"></div>
+        <button id="notes-sidebar-toggle" class="notes-sidebar-toggle" type="button" aria-label="收起章节栏" title="收起章节栏">‹</button>
+        <article class="note-reader">
+          <div class="reader-toolbar">
+            <div><p class="breadcrumb" id="reader-breadcrumb">学习笔记</p><h1 id="reader-title">正在加载笔记…</h1></div>
+            <button class="complete-button" id="complete-section">标记已完成</button>
+          </div>
+          <div id="reader-content" class="markdown-body"><div class="loading-block"></div><div class="loading-block short"></div></div>
+          <div class="reader-footer">
+            <button id="prev-section">← 上一节</button>
+            <button id="next-section">下一节 →</button>
+          </div>
+        </article>
+      </section>
+
+      <section id="cuda-interview-view" class="view notes-layout" aria-label="CUDA 面试篇">
+        <aside class="notes-sidebar">
+          <div class="sidebar-title cuda-sidebar-title">
+            <div class="cuda-sidebar-root"><h2>CUDA 面试篇</h2><span>22 篇</span></div>
+            <p>340 道高频题 · 6 个方向</p>
+          </div>
+          <div id="cuda-interview-tree" class="notes-tree"></div>
+        </aside>
+        <div id="cuda-interview-sidebar-resizer" class="notes-sidebar-resizer" role="separator" aria-label="拖动调整 CUDA 面试目录宽度" aria-orientation="vertical" tabindex="0"></div>
+        <button id="cuda-interview-sidebar-toggle" class="notes-sidebar-toggle" type="button" aria-label="收起 CUDA 面试目录" title="收起 CUDA 面试目录">‹</button>
+        <article class="note-reader cuda-interview-reader">
+          <div class="reader-toolbar">
+            <div><p class="breadcrumb" id="cuda-interview-breadcrumb">CUDA 面试篇</p><h1 id="cuda-interview-title">正在加载专题…</h1></div>
+            <a class="source-button" id="cuda-interview-source" href="https://hd9568.github.io/topics/cuda/" target="_blank" rel="noopener noreferrer">查看原文 ↗</a>
+          </div>
+          <div id="cuda-interview-content" class="markdown-body"><div class="loading-block"></div><div class="loading-block short"></div></div>
+          <div class="reader-footer">
+            <button id="cuda-interview-prev">← 上一篇</button>
+            <button id="cuda-interview-next">下一篇 →</button>
+          </div>
+        </article>
+      </section>
+
+      <section id="quiz-view" class="view practice-view" aria-labelledby="quiz-title">
+        <div class="practice-header">
+          <div><p class="eyebrow">INTERVIEW PRACTICE</p><h1 id="quiz-title">面试练习题</h1><p>选择题检验判断，简答题训练表达；作答后查看解析或参考要点。</p></div>
+          <div class="quiz-config">
+            <label class="select-label">面试方向<select id="quiz-category"></select></label>
+            <label class="select-label">题型<select id="quiz-type"><option value="all">选择题 + 简答题</option><option value="choice">只练选择题</option><option value="short">只练简答题</option></select></label>
+            <label class="select-label">题量<select id="quiz-count"><option value="10">10 题</option><option value="20">20 题</option><option value="all">全部</option></select></label>
+            <button class="primary-button compact" id="start-quiz">生成面试练习</button>
+          </div>
+        </div>
+        <div id="quiz-welcome" class="quiz-welcome">
+          <div class="quiz-orbit"><span>?</span></div>
+          <h2>准备好开始面试自测了吗？</h2><p>选择专题、题型和题量，既练知识判断，也练口头表达。</p>
+          <button class="primary-button" id="welcome-start">开始面试练习 →</button>
+        </div>
+        <div id="quiz-session" class="quiz-session hidden">
+          <div class="quiz-meta"><span id="quiz-number"></span><div class="quiz-progress"><i id="quiz-progress-bar"></i></div><span id="quiz-score"></span></div>
+          <article class="question-card"><span class="card-tag" id="quiz-tag"></span><h2 id="quiz-question"></h2><div class="options" id="quiz-options"></div><div id="quiz-explanation" class="explanation hidden"></div></article>
+          <button class="primary-button next-question hidden" id="next-question">下一题 →</button>
+        </div>
+        <div id="quiz-result" class="quiz-result hidden"></div>
+      </section>
+
+      <section id="mistakes-view" class="view practice-view" aria-labelledby="mistakes-title">
+        <div class="practice-header"><div><p class="eyebrow">REVIEW LOOP</p><h1 id="mistakes-title">面试错题回顾</h1><p>重新理解面试练习中的错题，掌握后可移出错题本。</p></div><button class="secondary-button" id="clear-mistakes">清空错题</button></div>
+        <div id="mistake-list" class="mistake-list"></div>
+      </section>
+
+    </main>
+
+    <dialog class="ai-config-dialog" id="ai-config-dialog" aria-labelledby="ai-config-title">
+      <form method="dialog" class="ai-config-card">
+        <button class="ai-config-close" value="cancel" aria-label="关闭 AI 配置">×</button>
+        <p class="eyebrow">LOCAL AI SETUP</p>
+        <h2 id="ai-config-title">配置项目面试官</h2>
+        <p class="ai-config-intro">优先使用你的 ChatGPT 套餐，无需把登录凭据放进网页；也可以继续使用本机已经配置的 OpenAI API Key。</p>
+        <div class="ai-account-panel" id="ai-account-panel">
+          <div class="ai-account-loading">正在读取 AI 登录状态…</div>
+        </div>
+        <button class="chatgpt-login-button" id="chatgpt-login" type="button" data-oai-siwc-button>Continue with ChatGPT</button>
+        <button class="chatgpt-switch-button" id="chatgpt-add-account" type="button">换一个 ChatGPT 账号</button>
+        <div class="ai-login-progress hidden" id="ai-login-progress"><span></span><p>请在新打开的 OpenAI 页面完成登录与授权，本窗口会自动更新。</p></div>
+        <div class="ai-config-separator"><span>备用方式</span></div>
+        <div class="ai-api-fallback" id="ai-api-fallback"><strong>OpenAI API Key</strong><p>正在读取本机备用配置…</p></div>
+        <p class="ai-config-security">登录令牌只保存在本机受保护的配置文件中，不会写入网页、浏览器存储或项目源码。</p>
+      </form>
+    </dialog>
+
+    <footer><span>小陈的编程复习室</span><span>内容来自《学习总笔记》 · 进度保存在当前浏览器</span></footer>
+  </div>
+  <script src="note-data.js?v=14"></script>
+  <script src="project-data.js?v=7"></script>
+  <script src="quiz-data.js?v=3"></script>
+  <script src="app.js?v=52"></script>
+</body>
+</html>

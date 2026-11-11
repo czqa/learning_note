@@ -1,0 +1,3 @@
+/home/czq/桌面/cuda_program/sgemm/build/CMakeFiles/sgemm_v8_double_buffer.dir
+/home/czq/桌面/cuda_program/sgemm/build/CMakeFiles/edit_cache.dir
+/home/czq/桌面/cuda_program/sgemm/build/CMakeFiles/rebuild_cache.dir

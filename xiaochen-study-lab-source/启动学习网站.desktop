@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=小陈的编程复习室
+Comment=打开学习网站和本机 CUDA 工作台
+Exec=/home/czq/桌面/学习总笔记/xiaochen-study-lab-source/刷新并打开学习网站.sh
+Path=/home/czq/桌面/学习总笔记/xiaochen-study-lab-source
+Icon=applications-development
+Terminal=false
+Categories=Education;

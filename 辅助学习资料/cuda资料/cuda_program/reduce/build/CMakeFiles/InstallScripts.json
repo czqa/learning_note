@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/czq/cuda_program/reduce/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

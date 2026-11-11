@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/item26.dir/item26.cpp.o -o item26

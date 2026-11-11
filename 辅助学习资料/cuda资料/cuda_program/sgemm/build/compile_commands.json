@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/czq/桌面/cuda_program/sgemm/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/sgemm_v8_double_buffer.dir/includes_CUDA.rsp -g -std=c++14 \"--generate-code=arch=compute_52,code=[compute_52,sm_52]\" -x cu -c /home/czq/桌面/cuda_program/sgemm/sgemm_v8_double_buffer.cu -o CMakeFiles/sgemm_v8_double_buffer.dir/sgemm_v8_double_buffer.cu.o",
+  "file": "/home/czq/桌面/cuda_program/sgemm/sgemm_v8_double_buffer.cu",
+  "output": "CMakeFiles/sgemm_v8_double_buffer.dir/sgemm_v8_double_buffer.cu.o"
+}
+]

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/czq/cuda_program/kernel_profiling_guide/build",
+  "command": "/usr/local/cuda-12.2/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/my_transpose_v5_shared_memory.dir/includes_CUDA.rsp -g -std=c++14 \"--generate-code=arch=compute_52,code=[compute_52,sm_52]\" -lineinfo -x cu -c /home/czq/cuda_program/kernel_profiling_guide/my_transpose_v5_shared_memory.cu -o CMakeFiles/my_transpose_v5_shared_memory.dir/my_transpose_v5_shared_memory.cu.o",
+  "file": "/home/czq/cuda_program/kernel_profiling_guide/my_transpose_v5_shared_memory.cu",
+  "output": "CMakeFiles/my_transpose_v5_shared_memory.dir/my_transpose_v5_shared_memory.cu.o"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/base9.dir/base9.cpp.o -o base9

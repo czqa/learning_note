@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/1.DeducingTypes/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/2.Auto/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/3.MovingToModernCpp/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/4.SmartPointers/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/5.RRefMovSemPerfForw/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/6.LambdaExpressions/cmake_install.cmake",
+		"/home/czq/\u684c\u9762/\u5b66\u4e60\u603b\u7b14\u8bb0/\u8f85\u52a9\u5b66\u4e60\u8d44\u6599/C++\u8d44\u6599/EffectiveModernCppChinese-master/build/8.Tweaks/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

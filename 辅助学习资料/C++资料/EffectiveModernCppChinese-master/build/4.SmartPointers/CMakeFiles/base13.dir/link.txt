@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/base13.dir/base13.cpp.o -o base13

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/czq/cuda_program/kernel_profiling_guide/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

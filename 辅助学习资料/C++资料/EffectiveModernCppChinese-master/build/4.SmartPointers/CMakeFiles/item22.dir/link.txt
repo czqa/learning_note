@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/item22.dir/item22.cpp.o CMakeFiles/item22.dir/Widget.cpp.o -o item22

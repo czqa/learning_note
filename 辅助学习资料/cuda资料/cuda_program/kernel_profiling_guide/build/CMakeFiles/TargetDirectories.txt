@@ -1,0 +1,3 @@
+/home/czq/cuda_program/kernel_profiling_guide/build/CMakeFiles/my_transpose_v5_shared_memory.dir
+/home/czq/cuda_program/kernel_profiling_guide/build/CMakeFiles/edit_cache.dir
+/home/czq/cuda_program/kernel_profiling_guide/build/CMakeFiles/rebuild_cache.dir

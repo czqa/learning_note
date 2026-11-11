@@ -1,0 +1,1 @@
+/usr/bin/g++ @CMakeFiles/sgemm_v5_register_outer_product.dir/objects1.rsp -o sgemm_v5_register_outer_product @CMakeFiles/sgemm_v5_register_outer_product.dir/linkLibs.rsp -L"/usr/local/cuda-12.2/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-12.2/targets/x86_64-linux/lib"

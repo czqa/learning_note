@@ -1,0 +1,10 @@
+add_executable(item18 item18.cpp)
+add_executable(item19 item19.cpp)
+add_executable(item20 item20.cpp)
+add_executable(item21 item21.cpp)
+add_executable(item22 item22.cpp Widget.cpp)
+add_executable(base13 base13.cpp)
+add_executable(base14 base14.cpp)
+add_executable(base15 base15.cpp)
+add_executable(base16 base16.cpp)
+

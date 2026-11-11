@@ -1,0 +1,1 @@
+/usr/bin/g++ @CMakeFiles/sgemm_v7_A_smem_transpose.dir/objects1.rsp -o sgemm_v7_A_smem_transpose @CMakeFiles/sgemm_v7_A_smem_transpose.dir/linkLibs.rsp -L"/usr/local/cuda-12.2/targets/x86_64-linux/lib/stubs" -L"/usr/local/cuda-12.2/targets/x86_64-linux/lib"
